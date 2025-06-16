@@ -1,12 +1,31 @@
-# React + Vite
+# 🚐 VanLife
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**VanLife** is a web application that allows users to browse and rent vans for road trips and adventures. Built with **React**, **React Router**, and **Firebase**, the app includes nested and protected routes, user authentication, and dynamic van listings.
 
-Currently, two official plugins are available:
+🔗 **Live Demo**: [VanLife on Vercel](https://vans-app-lac.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📸 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🧭 **Nested Routing** with React Router v7
+- 🔐 **Protected Routes** for authenticated users
+- 🪵 **Van Listings** with dynamic data from Firebase
+- 🛠️ **Host Dashboard** for van owners (restricted to logged-in users)
+- 📦 **Firebase Firestore** for backend database and data storage
+- 💡 **Responsive Design** for all screen sizes
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React, React Router DOM
+- **Backend/Database**: Firebase Firestore
+- **Deployment**: Vercel
+
+---
+
+## 🧭 Routing Overview
+
+The app uses nested and restricted routes. Here's a sample structure:
+
