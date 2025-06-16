@@ -25,7 +25,3 @@
 
 ---
 
-## 🧭 Routing Overview
-
-The app uses nested and restricted routes. Here's a sample structure:
-
