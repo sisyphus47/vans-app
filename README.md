@@ -2,6 +2,7 @@
 
 **VanLife** is a web application that allows users to browse and rent vans for road trips and adventures. Built with **React**, **React Router**, and **Firebase**, the app includes nested and protected routes, user authentication, and dynamic van listings.
 
+
 🔗 **Live Demo**: [VanLife on Vercel](https://vans-app-lac.vercel.app/)
 
 ---
